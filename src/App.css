@@ -1,0 +1,94 @@
+body {
+  width: 100vw;
+  height: 150vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+header {
+  height: 5%;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+}
+nav {
+  height: 100%;
+}
+ul {
+  display: flex;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+ul > li > svg {
+  padding-right: 2px;
+}
+ul > li:first-child:hover {
+  background-color: #1f1f1f;
+}
+ul > li {
+  list-style: none;
+  font-size: 1.5em;
+  padding: 0.7em;
+}
+ul > li:hover {
+  background-color: #3f3f3f;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading > h1 {
+  font-size: 1.5em;
+  padding-right: 5px;
+}
+.heading > h3 {
+  font-size: 1.2em;
+  color: #3f3f3f;
+}
+.heading {
+  display: flex;
+  width: 25%;
+  flex-direction: row;
+  align-items: end;
+}
+.line {
+  height: 1px;
+  background-color: #a7a7a7;
+  margin: 10px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.grid > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.grid > div > .image {
+  width: auto;
+  height: 200px;
+  background-image: url("https://picsum.photos/600/300");
+  background-repeat: no-repeat;
+}
+.grid > div > h1 {
+  padding: 10px;
+  color: blue;
+}
+.grid > div > p {
+  padding: 10px;
+}
+footer {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+}
